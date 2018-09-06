@@ -11,9 +11,9 @@
 		83265715213FDAC500A61D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83265711213FDAC500A61D5A /* Assets.xcassets */; };
 		83265716213FDAC500A61D5A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83265712213FDAC500A61D5A /* Info.plist */; };
 		83265717213FDAC500A61D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83265713213FDAC500A61D5A /* ViewController.swift */; };
-		8326571E213FDD1600A61D5A /* en-US.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8326571A213FDD1600A61D5A /* en-US.lproj */; };
-		8326571F213FDD1600A61D5A /* ru-RU.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8326571B213FDD1600A61D5A /* ru-RU.lproj */; };
-		83265720213FDD1600A61D5A /* zh-Hant-TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8326571C213FDD1600A61D5A /* zh-Hant-TW.lproj */; };
+		83E7E3F32140353B00CCA3F7 /* en-US.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 83E7E3F02140353B00CCA3F7 /* en-US.lproj */; };
+		83E7E3F42140353B00CCA3F7 /* ru-RU.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 83E7E3F12140353B00CCA3F7 /* ru-RU.lproj */; };
+		83E7E3F52140353B00CCA3F7 /* zh-Hant-TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 83E7E3F22140353B00CCA3F7 /* zh-Hant-TW.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,9 @@
 		83265711213FDAC500A61D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "onesky-helloworld/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		83265712213FDAC500A61D5A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "onesky-helloworld/Info.plist"; sourceTree = SOURCE_ROOT; };
 		83265713213FDAC500A61D5A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "onesky-helloworld/ViewController.swift"; sourceTree = SOURCE_ROOT; };
-		8326571A213FDD1600A61D5A /* en-US.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-US.lproj"; sourceTree = "<group>"; };
-		8326571B213FDD1600A61D5A /* ru-RU.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ru-RU.lproj"; sourceTree = "<group>"; };
-		8326571C213FDD1600A61D5A /* zh-Hant-TW.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant-TW.lproj"; sourceTree = "<group>"; };
+		83E7E3F02140353B00CCA3F7 /* en-US.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "en-US.lproj"; sourceTree = "<group>"; };
+		83E7E3F12140353B00CCA3F7 /* ru-RU.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ru-RU.lproj"; sourceTree = "<group>"; };
+		83E7E3F22140353B00CCA3F7 /* zh-Hant-TW.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant-TW.lproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 		111575AA1E845B9300A05C5E /* onesky-helloworld */ = {
 			isa = PBXGroup;
 			children = (
-				8326571A213FDD1600A61D5A /* en-US.lproj */,
-				8326571B213FDD1600A61D5A /* ru-RU.lproj */,
-				8326571C213FDD1600A61D5A /* zh-Hant-TW.lproj */,
+				83E7E3F02140353B00CCA3F7 /* en-US.lproj */,
+				83E7E3F12140353B00CCA3F7 /* ru-RU.lproj */,
+				83E7E3F22140353B00CCA3F7 /* zh-Hant-TW.lproj */,
 				83265710213FDAC500A61D5A /* AppDelegate.swift */,
 				83265711213FDAC500A61D5A /* Assets.xcassets */,
 				83265712213FDAC500A61D5A /* Info.plist */,
@@ -129,11 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8326571E213FDD1600A61D5A /* en-US.lproj in Resources */,
-				83265720213FDD1600A61D5A /* zh-Hant-TW.lproj in Resources */,
+				83E7E3F52140353B00CCA3F7 /* zh-Hant-TW.lproj in Resources */,
 				83265716213FDAC500A61D5A /* Info.plist in Resources */,
-				8326571F213FDD1600A61D5A /* ru-RU.lproj in Resources */,
 				83265715213FDAC500A61D5A /* Assets.xcassets in Resources */,
+				83E7E3F32140353B00CCA3F7 /* en-US.lproj in Resources */,
+				83E7E3F42140353B00CCA3F7 /* ru-RU.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
